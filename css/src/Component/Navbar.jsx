@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useCallback } from 'react';
-import { scrollIntoView } from './lib/utils';
+import { scrollIntoView } from '../lib/utils';
 import 'navbar.css';
 
 export default function NavBar() {
