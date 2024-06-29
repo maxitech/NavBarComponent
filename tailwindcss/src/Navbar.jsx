@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { scrollIntoView } from '../lib/utils';
+import { scrollIntoView } from './lib/utils';
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
